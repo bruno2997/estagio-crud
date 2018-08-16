@@ -39,7 +39,6 @@ body {
     margin-top: .7em;
     border: 2px solid black;
     border-radius: 50%;
-    
 }
 
 .btn-editar {
@@ -51,6 +50,19 @@ body {
     border: 2px solid black;
     border-radius: 50%;
     
+}
+
+.btn-adicionar:hover {
+    background-color: #660000;
+    color: #FFF;
+}
+.btn-remover:hover {
+    background-color: #660000;
+    color: #FFF;
+}
+.btn-editar:hover {
+    background-color: #660000;
+    color: #FFF;
 }
 
 .container {

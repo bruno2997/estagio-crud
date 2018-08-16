@@ -8,6 +8,11 @@
     border-radius: 50%;
 }
 
+.btn-login:hover {
+    background-color: #660000;
+    color: #FFF;
+}
+
 .formulario-login {
     margin-top: 0.5em;
 }
