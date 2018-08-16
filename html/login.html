@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/crud.css">
+    </head>
+    <body>
+        <main class="container">
+            <header class="titulo-principal">
+                <h1>Login</h1>
+            </header>
+            <fieldset>
+                <label for="campo-nome">Nome:</label>
+                <input type="text" name="nome" id="in-1" placeholder="Digite o nome" required>
+            </fieldset>
+            <fieldset>
+                <label for="campo-email">Email:</label>
+                <input type="email" name="email" id="in-2" placeholder="Digite o email" required>
+            </fieldset>
+
+            <fieldset class="formulario-login">
+                <label for="admin">
+                    <input type="radio" id="admin" name="assunto" value="admin" checked required>
+                    Aministrador
+                </label>
+                <label for="client">
+                    <input type="radio" id="cliente" name="assunto" value="client" required>
+                    Cliente
+                </label>
+                <label for="root">
+                    <input type="radio" id="root" name="assunto" value="root" required>
+                    Root
+                </label>
+            </fieldset>
+        
+            <button class="btn-login">Login</button>
+        </main>
+    </body>
+</html>

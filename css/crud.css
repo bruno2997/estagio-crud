@@ -32,6 +32,27 @@ body {
     font-weight: bold;
     margin-top: .7em;
     border: 2px solid black;
+    border-radius: 50%;  
+}
+
+.btn-remover {
+    background-color: red;
+    color: #FFF;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-top: .7em;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+
+.btn-editar {
+    background-color: red;
+    color: #FFF;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-top: .7em;
+    border: 2px solid black;
     border-radius: 50%;
     
 }
@@ -50,7 +71,6 @@ body {
     font-weight: bold;
     font-size: 200%;
     padding: 30px;
-    height: 20px;
     background-color: #FFF;
     margin: 0 25%;
 }
