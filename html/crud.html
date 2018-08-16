@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Crud</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/crud.css">
+    </head>
+    <body>
+        <main class="container">
+        <header class="titulo-principal">
+            <h1>Crud Básico</h1>
+        </header>
+            <section>
+                <h2>Meus Contatos</h2>
+                <table class="tabela">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>E-mail</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>João</td>
+                            <td>45</td>
+                            <td>joão.gatinho@hotmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <form class="formulario">
+                <fieldset>
+                    <label for="campo-nome">Nome:</label>
+                    <input type="text" name="nome" id="in-1" placeholder="Digite o nome" required>
+                </fieldset>
+                <fieldset>
+                    <label for="campo-idade">Idade:</label>
+                    <input type="number" name="idade" id="in-2" placeholder="Digite a idade" required>
+                </fieldset>
+                <fieldset>
+                    <label for="campo-email">Email:</label>
+                    <input type="email" name="email" id="in-3" placeholder="Digite o email" required>
+                </fieldset>
+                <button class="btn-adicionar">Adicionar</button>
+            </form>
+        </main>
+    </body>
+</html>

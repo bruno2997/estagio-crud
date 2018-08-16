@@ -1,0 +1,77 @@
+html{
+    font-family: 'Arial', sans-serif;
+}
+
+.formulario fieldset{
+    margin: 5px 15px;
+}
+
+.formulario {
+    margin-top: 7em;
+}
+
+#in-2 {
+    margin-left: 3px; 
+}
+
+#in-3 {
+    margin-left: 2px; 
+}
+
+body {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: #ccccb3;
+}
+
+.btn-adicionar {
+    background-color: red;
+    color: #FFF;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-top: .7em;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.container {
+    font-size: 120%;
+    background-color: #FFF;
+    width: 50%;
+    height: 450px;
+    margin: 0 25%;
+    padding-top: 1em;
+    border-radius: 15%;
+}
+
+.titulo-principal {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 30px;
+    height: 20px;
+    background-color: #FFF;
+    margin: 0 25%;
+}
+
+th {
+    background-color: red;
+    border: 2px solid black;
+    padding: 5px;
+    color: #FFF;
+}
+
+.tabela {
+    border-spacing: 5px;
+    position: absolute;
+    vertical-align: middle;
+    margin: 1em 1em;
+    right: 35%;
+    
+}
+
+.tabela td {
+    margin: 0 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
