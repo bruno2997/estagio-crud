@@ -6,10 +6,6 @@ html{
     margin: 5px 15px;
 }
 
-.formulario {
-    margin-top: 7em;
-}
-
 #in-2 {
     margin-left: 3px; 
 }
@@ -82,17 +78,24 @@ th {
     color: #FFF;
 }
 
+table {
+    display: initial;
+}
+
 .tabela {
     border-spacing: 5px;
-    position: absolute;
-    vertical-align: middle;
     margin: 1em 1em;
     right: 35%;
-    
 }
 
 .tabela td {
     margin: 0 5px;
     border: 1px solid black;
     padding: 5px;
+}
+
+.tabela h2 {
+    font-size: 30px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }

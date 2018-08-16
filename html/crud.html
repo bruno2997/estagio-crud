@@ -5,29 +5,13 @@
         <title>Crud</title>
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/crud.css">
+        <script src="../js/crud.js"></script>
     </head>
     <body>
         <main class="container">
             <header class="titulo-principal">
                 <h1>Crud Básico</h1>
             </header>
-            <section>
-                <h2>Meus Contatos</h2>
-                <table class="tabela">
-                    <tr>
-                        <th>Nome</th>
-                        <th>Idade</th>
-                        <th>E-mail</th>
-                    </tr>
-                    <tbody>
-                        <tr>
-                            <td>João</td>
-                            <td>45</td>
-                            <td>joão.gatinho@hotmail.com</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
             <form class="formulario">
                 <fieldset>
                     <label for="campo-nome">Nome:</label>
@@ -41,9 +25,23 @@
                     <label for="campo-email">Email:</label>
                     <input type="email" name="email" id="in-3" placeholder="Digite o email" required>
                 </fieldset>
-                <button class="btn-adicionar">Adicionar</button>
-                <button class="btn-remover">Remover</button>
-                <button class="btn-editar">Editar</button>
+                
+                <button class="btn-adicionar" value="adicionar" type="submit">Adicionar</button>
+                <!-- <button class="btn-remover">Remover</button>
+                <button class="btn-editar">Editar</button> -->
+
+                <section class="tabela">
+                    <h2>Tabela</h2>
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                            <th>E-mail</th>
+                        </tr>
+                        <tbody class="tbody-resultados"></tbody>
+                    </table>
+                </section>
             </form>
         </main>
     </body>
