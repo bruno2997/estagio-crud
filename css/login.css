@@ -1,3 +1,11 @@
+#in-login-2 {
+    margin-right: 5px;
+}
+
+fieldset {
+    margin: 5px 15px;
+}
+
 .btn-login {
     background-color: red;
     color: #FFF;

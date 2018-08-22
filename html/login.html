@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/login.css">
         <link rel="stylesheet" href="../css/crud.css">
+        <link rel="stylesheet" href="../js/crud.js">
+        <script type="text/javascript" src="../js/crud.js"></script>
     </head>
     <body>
         <main class="container">
@@ -15,29 +17,29 @@
             <form class="formulario-login">
                 <fieldset>
                     <label for="campo-nome">Nome:</label>
-                    <input type="text" name="nome" id="in-1" placeholder="Digite o nome" required>
+                    <input type="text" name="nome" id="in-login-1" placeholder="Digite o nome" required>
                 </fieldset>
                 <fieldset>
-                    <label for="campo-email">Email:</label>
-                    <input type="email" name="email" id="in-3" placeholder="Digite o email" required>
+                    <label for="campo-senha">Senha:</label>
+                    <input type="password" name="senha" id="in-login-2" placeholder="Digite a senha" required>
                 </fieldset>
 
-                <fieldset class="radio">
+                <!--fieldset class="radio">
                     <label for="admin">
                         <input type="radio" id="admin" name="assunto" value="admin" checked required>
-                        Aministrador
+                        Administrador
                     </label>
                     <label for="client">
-                        <input type="radio" id="cliente" name="assunto" value="client" required>
-                        Cliente
-                    </label>
-                    <label for="root">
                         <input type="radio" id="root" name="assunto" value="root" required>
                         Root
                     </label>
-                </fieldset>
+                    <label for="root">
+                        <input type="radio" id="user" name="assunto" value="user" required>
+                        Cliente
+                    </label>
+                </fieldset-->
                 <br>
-                <button class="btn-login" type="submit" value="login">Login</button>
+                <button class="btn-login" type="button" value="login" onClick="Login()">Login</button>
             </form>
 
             

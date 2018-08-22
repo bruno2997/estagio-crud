@@ -160,3 +160,33 @@
 // 	}
 // }
 // 							//'<td class="celTable'+i+'">'+id+'</td>'+
+
+
+function Login(){
+    let done = 0;
+    let nome = document.getElementsByName('nome')[0].value;
+    let senha = document.getElementsByName('senha')[0].value;
+
+    if (nome=="admin" && senha=="admin123") {
+        window.location="../html/crud.html"; 
+        done=1
+        alert("Bem-vindo " + nome);
+    } 
+    
+    if (nome=="root" && senha=="root123") {
+        window.location="../html/crud.html"; 
+        done=1;
+        alert("Bem-vindo " + nome);
+    }
+
+    if (nome=="user" && senha=="user123") {
+        window.location="../html/crud.html";
+        done=1;
+        alert("Bem-vindo " + nome);
+    }
+
+    if (done==0) {
+        alert("Senha ou Usuário inválido."); 
+    }
+}
+
